@@ -22,9 +22,7 @@ function setup(){
     ground1 = new Ground(600,690,1200,20);
     ground2 = new Ground(500,500,320,10);
     ground3 = new Ground(1000,300,190,10);
-
-    
-    
+   
     //level1  
     block1 = new Block(502,480,20,40);    
     block2 = new Block(553,480,20,40);
