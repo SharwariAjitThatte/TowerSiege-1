@@ -66,7 +66,7 @@ function setup(){
     ball = Bodies.circle(50,200,20);
     World.add(world,ball);
 
-    sling = new Slingshot(this.ball,{x:100,y:200});
+    sling = new slingshot(this.ball,{x:100,y:200});
 }
 
 function draw(){   
